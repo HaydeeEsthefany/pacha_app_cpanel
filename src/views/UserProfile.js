@@ -26,11 +26,22 @@ function User() {
               <Card.Body>
                 <Form>
                   <Row>
-                    <Col className="pr-1" md="6">
+                    <Col className="pr-1" md="3">
                       <Form.Group>
-                        <label>Nombre  y Apellidos </label>
+                        <label>Name </label>
                         <Form.Control
-                          defaultValue="Juan Perez"
+                          defaultValue="Juan"
+                          disabled
+                          placeholder="Company"
+                          type="text"
+                        ></Form.Control>
+                      </Form.Group>
+                    </Col>
+                    <Col className="pr-1" md="3">
+                      <Form.Group>
+                        <label>Last Name </label>
+                        <Form.Control
+                          defaultValue="Perez"
                           disabled
                           placeholder="Company"
                           type="text"
@@ -50,23 +61,11 @@ function User() {
                     </Col>
                   </Row>
                   <Row>
-                    <Col md="12">
-                      <Form.Group>
-                        <label>Sobre mi</label>
-                        <Form.Control
-                          defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
-                          placeholder="Home Address"
-                          type="text"
-                        ></Form.Control>
-                      </Form.Group>
-                    </Col>
-                  </Row>
-                  <Row>
                     <Col className="pr-1" md="3">
                       <Form.Group>
-                        <label>telefono</label>
+                        <label>Phone</label>
                         <Form.Control
-                          defaultValue="telefono"
+                          defaultValue="989741509"
                           placeholder="telefono"
                           type="text"
                         ></Form.Control>

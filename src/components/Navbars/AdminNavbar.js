@@ -72,10 +72,9 @@ function Header() {
             <Nav.Item>
               <Nav.Link
                 className="m-0"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
+                href="https://haydeeesthefany.github.io/pacha_app_FE/#/inicio"
               >
-                <span className="no-icon">Cerrar Sesión</span>
+                <span className="no-icon">Sign off</span>
               </Nav.Link>
             </Nav.Item>
           </Nav>

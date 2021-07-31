@@ -84,22 +84,22 @@ function Dashboard() {
           <Col md="8">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Variación de Precio</Card.Title>
-                <p className="card-category">24 Semanas</p>
+                <Card.Title as="h4">Price Variation</Card.Title>
+                <p className="card-category">24 Weeks</p>
               </Card.Header>
               <Card.Body>
                 <div className="ct-chart" id="chartHours">
                   <ChartistGraph
                     data={{
                       labels: [
-                        "Semana 1",
-                        "Semana 2",
-                        "Semana 3",
-                        "Semana 4",
-                        "Semana 5",
-                        "Semana 6",
-                        "Semana 7",
-                        "Semana 8",
+                        "Weeks 1",
+                        "Weeks 2",
+                        "Weeks 3",
+                        "Weeks 4",
+                        "Weeks 5",
+                        "Weeks 6",
+                        "Weeks 7",
+                        "Weeks 8",
                       ],
                       series: [
                         [2.87, 3.85, 4.90, 4.92, 5.54, 5.86, 6.98, 6.95],
@@ -142,9 +142,9 @@ function Dashboard() {
               <Card.Footer>
                 <div className="legend">
                   <i className="fas fa-circle text-info"></i>
-                  Papa <i className="fas fa-circle text-danger"></i>
-                  Camote <i className="fas fa-circle text-warning"></i>
-                  Choclo
+                  Potato <i className="fas fa-circle text-danger"></i>
+                  Sweet potato <i className="fas fa-circle text-warning"></i>
+                  Corn
                 </div>
                 <hr></hr>
                 <div className="stats">
@@ -157,7 +157,7 @@ function Dashboard() {
           <Col md="4">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Simillas de Papa</Card.Title>
+                <Card.Title as="h4">Potato seeds</Card.Title>
               </Card.Header>
               <Card.Body>
                 <div
